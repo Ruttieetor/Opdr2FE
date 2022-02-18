@@ -3,3 +3,73 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/*2.1*/
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+/*2.2*/
+.two{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*2.3*/
+
+.three{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.three > ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 0px;
+    column-gap: 15px;
+    list-style-type: none;
+
+}
+
+/*2.4*/
+
+.four{
+    display: flex;
+    justify-content: center;
+}
+.four > form{
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*2.5*/
+
+.five{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+
+}
+
+.five > article{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 360px;
+
+}
